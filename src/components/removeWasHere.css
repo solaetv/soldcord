@@ -1,0 +1,4 @@
+/** remove stupid was here feature **/
+div[class*='row']:has(> div[class*="avatarWrapper"] > [class*='clockBadge']){
+  display: none;
+}
